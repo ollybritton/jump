@@ -18,4 +18,5 @@ import "gitlab.com/ollybritton/jump/jump-config/cmd"
 
 func main() {
 	cmd.Execute()
+
 }
