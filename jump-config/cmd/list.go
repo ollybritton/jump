@@ -25,7 +25,7 @@ import (
 var listCmd = &cobra.Command{
 	Use:   "list",
 	Short: "list returns all directories that match a given alias.",
-	Long:  `list will return all the paths to directories that a given alias match, seperated by newlines.`,
+	Long:  `list will return all the paths to directories that a given alias match, separated by newlines.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		listFiles(args[0])
 	},
