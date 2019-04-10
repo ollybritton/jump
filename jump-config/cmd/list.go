@@ -25,7 +25,7 @@ func listFiles(alias string) {
 		matchStrings = append(matchStrings, key+"|"+val)
 	}
 
-	fmt.Println(strings.Join(matchStrings, "++"))
+	fmt.Println(strings.Join(matchStrings, ">"))
 
 }
 

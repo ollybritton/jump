@@ -27,7 +27,7 @@ jump () {
     matches=$(jump-config list $1)
 
     # The following code reads the matches into an array.
-    IFS=' '
+    IFS='>'
     read -rA ALL_MATCHES_LIST <<< "$matches"
 
     # Loop through all matches, split them up and print them out in a human-readable way.
