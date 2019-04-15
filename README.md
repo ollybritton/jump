@@ -72,8 +72,15 @@ jump py
 
 If there are multiple aliases that begin with those letters, it will prompt you to select the correct one.
 
-## To Add
+Once you have defined at least one alias, you can then use the short command `jump-config add [name][alias]` to quickly add an alias. For example
 
-* Figure out how to actually format Go code - it looks like utter rubbish at the moment.
-* I think that the bash.sh doesn't actually work, which is a bit useless.
-* Add more options for the init phase, like choosing if they want colors.
+```bash
+jump-config add root ~
+```
+
+Will add the code
+
+```yaml
+    root: "~"
+```
+
